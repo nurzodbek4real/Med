@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_kun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table, th, td{
+    border: 1px solid #202020B2;
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+    height: 15vh;
+}
+.calendar{
+    width: 30px;
+    height: 30px;
+}
+#tab1{
+    font-family: Roboto Slab;
+    font-size: 19px;
+}
+.h1_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 20vh;
+    width: 100%;
+}
+.medlifesoz{
+    color: red;
+}
