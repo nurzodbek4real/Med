@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.aboutwe{
+    text-align: center;
+    width: 100%;
+}
+.main_page_2{
+    padding: 15px;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.text-container {
+    max-width: 60%;
+}
+
+.p1, .p2 {
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.p1, .p2, ul, .button {
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(36, 247, 247);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0; /* Remove padding for custom bullets */
+}
+
+ul li {
+    position: relative; /* Allow positioning for custom bullets */
+    padding-left: 30px; /* Space for custom bullet */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+ul li::before {
+    content: '•'; /* Unicode bullet character */
+    position: absolute; /* Absolute positioning */
+    left: 0; /* Position at the start of the list item */
+    color: rgb(36, 247, 247); /* Match the button color */
+    font-size: 20px; /* Adjust size as needed */
+    line-height: 1; /* Ensure proper vertical alignment */
+}
+
+.image-container {
+    max-width: 28%;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
