@@ -1,0 +1,45 @@
+.kontaklar {
+    margin-top: 40px;
+    margin-left: 100px;
+    display:block;
+    box-sizing: border-box;
+
+}
+
+.box {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 100px;
+    opacity: 0px;
+    line-height: 0px;
+}
+
+section {
+    margin-bottom: 0px;
+    line-height: 0;
+}
+
+h3 {
+    margin-bottom: 0px;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+#contact-information {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#chasi-raboti {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content:flex-start;
+}
